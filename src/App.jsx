@@ -1,10 +1,12 @@
 
 import './App.css'
 import AboutUs from './components/AboutUs/AboutUs'
+import AllRightReversed from './components/AllRightReversed/AllRightReversed'
 import BlogAndNews from './components/BlogAndNews/BlogAndNews'
 import BrowseByCategories from './components/BrowseByCategories/BrowseByCategories'
 import ClientFeedBack from './components/ClientFeedBack/ClientFeedBack'
 import FindMoreChoose from './components/FindMoreChoose/FindMoreChoose'
+import Footer from './components/Footer/Footer'
 import HeroSection from './components/HeroSection/HeroSection'
 import MenuBar from './components/MenuBar/MenuBar'
 import OurAgent from './components/OurAgent/OurAgent'
@@ -38,6 +40,8 @@ function App() {
       <ClientFeedBack></ClientFeedBack>
       <SubscribeNewsletter></SubscribeNewsletter>
       <BlogAndNews></BlogAndNews>
+      <Footer></Footer>
+      <AllRightReversed></AllRightReversed>
     </>
   )
 }
